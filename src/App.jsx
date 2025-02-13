@@ -1,18 +1,26 @@
 import React, { useState } from "react";
-import { Table, TableHead, TableBody, TableRow, TableCell, TableContainer, Paper, TableSortLabel, TextField, FormGroup, FormControlLabel, Checkbox } from "@mui/material";
+import { Table, TableHead, TableBody, TableRow, TableCell, TableContainer, Paper,
+   TableSortLabel, TextField, FormGroup, FormControlLabel, Checkbox } from "@mui/material";
 
 const initialColumns = [
   { id: "id", label: "ID", show: true },
   { id: "name", label: "Name", show: true },
   { id: "age", label: "Age", show: true },
+  { id: "mail", label: "mail", show: true },
+  { id: "fname", label: "FName", show: true },
+  { id: "aage", label: "AAge", show: true },
   { id: "email", label: "Email", show: true },
+
 ];
 
 const initialData = [
-  { id: 1, name: "Alice", age: 25, email: "alice@example.com" },
-  { id: 2, name: "Bob", age: 30, email: "bob@example.com" },
-  { id: 3, name: "Charlie", age: 35, email: "charlie@example.com" },
-  { id: 4, name: "David", age: 28, email: "david@example.com" },
+  { id: 1, name: "Alice", age: 25, mail: "alice@example.com", fname: "Alice", aage: 25, email: "alice@example.com"  },
+  { id: 2, name: "Bob", age: 30, email: "bob@example.com" , mail: "alice@example.com", fname: "Alice", aage: 25},
+  { id: 3, name: "Charlie", age: 35, email: "charlie@example.com" , mail: "alice@example.com", fname: "Alice", aage: 25},
+  { id: 4, name: "David", age: 28, email: "david@example.com" , mail: "alice@example.com", fname: "Alice", aage: 25},
+  { id: 1, name: "Alice", age: 25, email: "alice@example.com", mail: "alice@example.com", fname: "Alice", aage: 25 },
+  { id: 2, name: "Bob", age: 30, email: "bob@example.com" , mail: "alice@example.com", fname: "Alice", aage: 25},
+  { id: 3, name: "Charlie", age: 35, email: "charlie@example.com" , mail: "alice@example.com", fname: "Alice", aage: 25},
 ];
 
 import './App.css'

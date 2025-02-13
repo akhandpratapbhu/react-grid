@@ -15,10 +15,6 @@
     "@mui/icons-material": "^6.4.4",
     "@mui/lab": "^6.0.0-beta.27",
     "@mui/material": "^6.4.4",
-    "ag-grid-community": "^33.1.0",
-    "ag-grid-enterprise": "^33.1.0",
-    "ag-grid-react": "^33.1.0",
-    "lucide-react": "^0.475.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
