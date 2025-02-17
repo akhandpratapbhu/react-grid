@@ -18,6 +18,8 @@ import GridData from './griddata'
 import { IconButton, TextField, Box, Stack, Tooltip } from '@mui/material';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import AccountCircle from '@mui/icons-material/AccountCircle';
+import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
+import BuildIcon from '@mui/icons-material/Build';
 
 const NAVIGATION = [
     {
@@ -37,12 +39,12 @@ const NAVIGATION = [
             {
                 segment: 'vehicles',
                 title: 'Vehicles',
-                icon: <DescriptionIcon />,
+                icon: <DirectionsCarIcon />, // Vehicle icon
             },
             {
                 segment: 'spares',
                 title: 'Spares',
-                icon: <DescriptionIcon />,
+                icon: <BuildIcon />, // Spare parts icon
             },
         ],
     },
